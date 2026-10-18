@@ -1,0 +1,12 @@
+.ln{display:flex;flex-direction:column;gap:10px;height:100%;font-size:.85rem}
+.ln-form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.ln-form label{display:flex;flex-direction:column;gap:3px;opacity:.9}
+.ln-form input{padding:7px;border:1px solid var(--muted-bg,#444);border-radius:7px;background:var(--surface,#1e1e1e);color:var(--text,#eee)}
+#ln-calc{padding:9px;border:0;border-radius:8px;background:var(--accent2,#27ae60);color:#fff;cursor:pointer;font-weight:600}
+.ln-out{display:flex;justify-content:space-around;text-align:center;gap:8px}
+.ln-out .k{font-size:.7rem;opacity:.7}
+.ln-out .v{font-size:1.2rem;font-weight:700}
+.ln-sched{flex:1;overflow:auto;font-size:.78rem}
+.ln-sched table{width:100%;border-collapse:collapse}
+.ln-sched th,.ln-sched td{padding:4px 6px;text-align:right;border-bottom:1px solid var(--muted-bg,#333)}
+.ln-sched th:first-child,.ln-sched td:first-child{text-align:left}

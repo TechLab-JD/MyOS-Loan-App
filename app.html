@@ -1,0 +1,16 @@
+<div class="app-window" id="LoanApp">
+  <div class="app-header"><span class="app-title">💰 Loan Calculator</span><div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div></div>
+  <div class="app-content">
+    <div class="ln">
+      <div class="ln-form">
+        <label>Loan amount ($)<input id="ln-amt" type="number" min="0" value="20000"></label>
+        <label>Annual rate (%)<input id="ln-rate" type="number" min="0" step="0.01" value="6.5"></label>
+        <label>Term (years)<input id="ln-term" type="number" min="1" value="5"></label>
+      </div>
+      <button id="ln-calc">Calculate</button>
+      <div id="ln-out" class="ln-out"></div>
+      <div id="ln-sched" class="ln-sched"></div>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
